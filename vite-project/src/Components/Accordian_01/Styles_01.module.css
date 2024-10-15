@@ -1,3 +1,6 @@
+body {
+  color: aliceblue;
+}
 
 .heading {
   text-align: center;
@@ -6,9 +9,10 @@
   padding: 10px;
   border-top: 1px solid aliceblue;
   border-bottom: 1px solid aliceblue;
+  background-color: rgb(10, 27, 60);
 }
 
-.wrapper{
+.wrapper {
   position: relative;
   background-color: rgb(10, 27, 60);
   display: flex;
@@ -17,7 +21,7 @@
   padding: 1rem;
 }
 
-.item{
+.item {
   display: flex;
   align-items: center;
   gap: 3rem;
@@ -26,10 +30,10 @@
   padding: 10px;
 }
 
-.button{
+.button {
   padding: 15px 10px;
   margin-bottom: 10px;
-  background-color:rgb(27, 42, 73) ;
+  background-color: rgb(27, 42, 73);
   font-family: monospace;
   font-size: 16px;
   width: max-content;
@@ -39,7 +43,7 @@
   transition: all 500ms ease;
 }
 
-.button:hover{
-    background-color: aliceblue;
-    color: rgb(27, 42, 73);
-  }
+.button:hover {
+  background-color: aliceblue;
+  color: rgb(27, 42, 73);
+}
